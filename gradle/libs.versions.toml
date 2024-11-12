@@ -14,9 +14,9 @@ okhttp = "4.10.0"
 gson = "2.9.0"
 lifecycleViewModelAndroid = "2.8.5"
 glide = "4.15.1"
-glidecompiler = "4.15.1"
-navigationFragmentKtx = "2.8.0"
-navigationUiKtx = "2.8.8"
+#glidecompiler = "4.15.1"
+navigationFragmentKtx = "2.8.3"
+navigationUiKtx = "2.8.3"
 
 
 [libraries]
@@ -28,12 +28,12 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-retrofit = {group="com/squareup/retrofit2", name="retrofit", version.ref = "retrofit"}
-okhttp = {group="com.square.okhttp3", name="logging-interceptor", version.ref = "okhttp"}
+retrofit = {group="com.squareup.retrofit2", name="retrofit", version.ref = "retrofit"}
+okhttp = {group="com.squareup.okhttp3", name="logging-interceptor", version.ref = "okhttp"}
 gson = {group="com.squareup.retrofit2", name="converter-gson", version.ref="gson"}
-androidx-lifecycle-viewmodel-android = {group="androidx.lifecycle", name="lifecycler-viewmodel-android", version.ref="lifecycleViewModelAndroid"}
+androidx-lifecycle-viewmodel-android = {group="androidx.lifecycle", name="lifecycle-viewmodel-android", version.ref="lifecycleViewModelAndroid"}
 glide  = {group = "com.github.bumptech.glide", name="glide", version.ref="glide"}
-glide-compiler = {group = "com.github.bumptech.glide", name="compiler", version.ref="glidecompiler"}
+#glide-compiler = {group = "com.github.bumptech.glide", name="compiler", version.ref="glidecompiler"}
 androidx-navigation-fragment-ktx = {group="androidx.navigation", name="navigation-fragment-ktx", version.ref="navigationFragmentKtx" }
 androidx-navigation-ui-ktx = {group="androidx.navigation", name="navigation-ui-ktx", version.ref ="navigationUiKtx"}
 

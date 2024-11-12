@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("org.jetbrains.kotlin.plugin.parcelize")
 }
 
 android {
@@ -48,7 +49,7 @@ dependencies {
     implementation(libs.okhttp)
 
     implementation(libs.glide)
-    implementation(libs.glide.compiler)
+//    implementation(libs.glide.compiler)
 
     implementation(libs.androidx.lifecycle.viewmodel.android)
     implementation(libs.androidx.navigation.fragment.ktx)
